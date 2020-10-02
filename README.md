@@ -10,12 +10,11 @@ $ ssh-copy-id [USER]@[IP/FQDN] # adding key to host
 ```
 1. whiptail must be installed on machine where this script is going to run.
 2. libvirt-clients must be installed on machine where this script is going to connect to.
-Ubuntu:
+### Ubuntu:
 ```
 $ sudo apt install whiptail libvirt-clients -y
 ```
-CentOS:
-Ubuntu:
+### CentOS:
 ```
 $ sudo yum install newt libvirt-clients -y
 ```
